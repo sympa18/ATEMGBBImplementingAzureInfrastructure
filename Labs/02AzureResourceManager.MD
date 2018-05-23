@@ -10,7 +10,7 @@ Use Visual Studio Code extension to create Azure Resource Manager template
 Creating and deploying Azure resource groups through Visual Studio
 
 
-[Test](https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy){:target="_blank"}
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy
 
 
 ### Homework Scenario Hands on labs 
