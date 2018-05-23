@@ -1,6 +1,6 @@
 # Azure Resource Manager
 
-Lab time : x hour
+Lab time : 45 minutes
 
 [Azure Resource Manager Labs](./02AzureResourceManager.MD)
 
@@ -10,7 +10,7 @@ Lab Time : 1 hour
 
 
 # Virtual Machines
-Lab Time : x hour
+Lab Time : 90 minutes
 
 [Virtual Machines Labs](./04VirtualMachines.MD)
 
@@ -22,7 +22,7 @@ Lab Time : x hour
 
 
 # Azure App Service
-Lab Time : x hour
+Lab Time : 2 hours
 
 [Azure App Service Labs](./06AzureAppService.MD)
 
