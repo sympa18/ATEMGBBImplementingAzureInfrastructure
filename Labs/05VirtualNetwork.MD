@@ -1,5 +1,7 @@
 # Virtual Network
 
+**Press Ctrl + click to open the links below in a new tab**
+
 Quickstart: Create a virtual network using the Azure portal
 
 From <https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal> 

@@ -1,5 +1,7 @@
 # Virtual Machines
 
+**Press Ctrl + click to open the links below in a new tab**
+
 Quickstart: Create a Windows virtual machine in the Azure portal
 
 From <https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal> 

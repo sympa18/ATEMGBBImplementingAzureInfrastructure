@@ -1,5 +1,7 @@
 # Security
 
+**Press Ctrl + click to open the links below in a new tab**
+
 Lab time 20 to 30 minutes
 
 ## Security Center

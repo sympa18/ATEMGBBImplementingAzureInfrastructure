@@ -1,4 +1,6 @@
 # Azure Resource Manager
+**Press Ctrl + click to open the links below in a new tab**
+
 Create and deploy your first Azure Resource Manager template
 
 <https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-create-first-template> 

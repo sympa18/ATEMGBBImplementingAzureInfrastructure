@@ -1,4 +1,8 @@
 # Storage
+
+**Press Ctrl + click to open the links below in a new tab**
+
+
 Lab Time 1 hour
 
 Create a storage account

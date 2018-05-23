@@ -1,5 +1,7 @@
 # Azure App Service
 
+**Press Ctrl + click to open the links below in a new tab**
+
 ## Web Apps
 
 ### Quickstart
