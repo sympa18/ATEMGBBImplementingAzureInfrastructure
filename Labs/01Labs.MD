@@ -30,3 +30,8 @@ Lab Time : 2 hours
 # Security
 
 [Security Labs](./07Security.MD)
+
+
+# Hands on Labs Instructions
+
+[Hands on Labs](./HandsonLabs.MD)
