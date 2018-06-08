@@ -16,7 +16,7 @@ Lab Time : 90 minutes
 
 
 # Virtual Network
-Lab Time : x hour
+Lab Time : 3 hour
 
 [Virtual Network Labs](./05VirtualNetwork.MD)
 
