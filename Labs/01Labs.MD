@@ -1,8 +1,4 @@
-# Azure Resource Manager
 
-Lab time : 45 minutes
-
-[Azure Resource Manager Labs](./02AzureResourceManager.MD)
 
 # Storage
 Lab Time : 1 hour
@@ -16,10 +12,14 @@ Lab Time : 90 minutes
 
 
 # Virtual Network
-Lab Time : x hour
+Lab Time : 3 hour
 
 [Virtual Network Labs](./05VirtualNetwork.MD)
 
+# Azure Resource Manager
+Lab time : 45 minutes
+
+[Azure Resource Manager Labs](./02AzureResourceManager.MD)
 
 # Azure App Service
 Lab Time : 2 hours
