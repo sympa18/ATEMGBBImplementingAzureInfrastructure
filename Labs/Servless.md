@@ -33,4 +33,5 @@ Create a single Azure SQL database using the Azure CLI: https://docs.microsoft.c
 Create a single Azure SQL database using PowerShell: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-powershell
 
 Azure portal: Use the SQL Query editor to connect and query data: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-portal
+
 [Back to labs table](./AzureLabs.md)
