@@ -14,6 +14,7 @@ Create a Windows VM: https://docs.microsoft.com/en-au/azure/virtual-machines/win
 Create a Linux VM: https://docs.microsoft.com/en-au/azure/virtual-machines/linux/quick-create-powershell
 
 # Quickstart: Storage
+# Storage Account
 # Using Portal
 Create a Storage Account: https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=portal
 
@@ -30,3 +31,6 @@ Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/q
 
 # Using CLI
 Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/quick-create-cli
+
+VM Lifecycle Tutorial [./AzureVMTutorial.md]
+Functions + Logic Apps [./Servless.md]
