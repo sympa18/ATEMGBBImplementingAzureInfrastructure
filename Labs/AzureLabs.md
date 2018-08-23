@@ -32,5 +32,8 @@ Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/q
 # Using CLI
 Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/quick-create-cli
 
+# VM Lifecycle
 [VM Lifecycle Tutorial](./AzureVMTutorial.md)
+
+# Functions and Logic Apps
 [Functions + Logic Apps](./Servless.md)
