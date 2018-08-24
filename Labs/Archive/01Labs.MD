@@ -1,37 +1,39 @@
+# Azure QuickStart Labs (Day 1)
 
+# Quickstart: Create a Virtual Machine
+# Using Portal
+Create a Windows VM: https://docs.microsoft.com/en-au/azure/virtual-machines/windows/quick-create-portal
+Create a Linux VM: https://docs.microsoft.com/en-au/azure/virtual-machines/linux/quick-create-portal
 
-# Storage
-Lab Time : 1 hour
-[Storage Labs](./03Storage.MD)
+# Using CLI
+Create a Windows VM: https://docs.microsoft.com/en-au/azure/virtual-machines/windows/quick-create-cli
+Create a Linux VM: https://docs.microsoft.com/en-au/azure/virtual-machines/linux/quick-create-cli
 
+# Using Powershell
+Create a Windows VM: https://docs.microsoft.com/en-au/azure/virtual-machines/windows/quick-create-powershell
+Create a Linux VM: https://docs.microsoft.com/en-au/azure/virtual-machines/linux/quick-create-powershell
 
-# Virtual Machines
-Lab Time : 90 minutes
+# Quickstart: Storage
+# Storage Account
+# Using Portal
+Create a Storage Account: https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=portal
 
-[Virtual Machines Labs](./04VirtualMachines.MD)
+# Managed Disks
+# Using Portal
+Attach Managed Data Disk: https://docs.microsoft.com/en-au/azure/virtual-machines/windows/attach-managed-disk-portal
 
+# Quickstart: Create a Virtual Network
+# Using Portal
+Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/quick-create-portal
 
-# Virtual Network
-Lab Time : 3 hour
+# Using Powershell
+Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/quick-create-powershell
 
-[Virtual Network Labs](./05VirtualNetwork.MD)
+# Using CLI
+Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/quick-create-cli
 
-# Azure Resource Manager
-Lab time : 45 minutes
+# VM Lifecycle
+[VM Lifecycle Tutorial](./AzureVMTutorial.md)
 
-[Azure Resource Manager Labs](./02AzureResourceManager.MD)
-
-# Azure App Service
-Lab Time : 2 hours
-
-[Azure App Service Labs](./06AzureAppService.MD)
-
-
-# Security
-
-[Security Labs](./07Security.MD)
-
-
-# Hands on Labs Instructions
-
-[Hands on Labs](./HandsonLabs.MD)
+# Functions and Logic Apps
+[Functions + Logic Apps](./Servless.md)
