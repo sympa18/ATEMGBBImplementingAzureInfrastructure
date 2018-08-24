@@ -22,7 +22,7 @@
 	
 • The Lab documentation links are on Github. Click on the following link to access them.
 
-[Labs](./01Labs.MD)
+[Back to labs table](./01Labs.MD)
 
 
 

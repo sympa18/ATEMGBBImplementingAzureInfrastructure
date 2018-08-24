@@ -34,4 +34,4 @@ Create a single Azure SQL database using PowerShell: https://docs.microsoft.com/
 
 Azure portal: Use the SQL Query editor to connect and query data: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-portal
 
-[Back to labs table](./01Labs.md)
+[Back to labs table](./01Labs.MD)

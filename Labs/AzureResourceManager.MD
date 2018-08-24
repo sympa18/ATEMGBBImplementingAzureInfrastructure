@@ -26,4 +26,4 @@ Building ARM Services (PAAS Solution)
 
 https://www.microsoft.com/handsonlabs/SelfPacedLabs/?storyGuid=df125fe4-2f78-4802-a44d-e5492b77ccba
 
-[Back to Labs](./01Labs.MD)
+[Back to labs table](./01Labs.MD)
