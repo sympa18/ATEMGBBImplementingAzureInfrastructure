@@ -28,4 +28,4 @@
 11. Monitor and Update VMs: https://docs.microsoft.com/en-au/azure/virtual-machines/linux/tutorial-monitoring 
 12. Manage VM Security: https://docs.microsoft.com/en-au/azure/virtual-machines/linux/tutorial-azure-security
 
-[Back to labs table](./AzureLabs.md)
+[Back to labs table](./01Labs.md)

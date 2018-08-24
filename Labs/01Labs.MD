@@ -39,4 +39,4 @@ Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/q
 [Functions + Logic Apps](./Servless.md)
 
 # Azure Resource Manager Templates
-[Azure Resource Manager Templates](./Servless.md)
+[Azure Resource Manager Templates](./AzureResourceManager.md)
