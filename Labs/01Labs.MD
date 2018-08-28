@@ -4,16 +4,19 @@
 Using Portal
 
 Create a Windows VM: https://docs.microsoft.com/en-au/azure/virtual-machines/windows/quick-create-portal
+
 Create a Linux VM: https://docs.microsoft.com/en-au/azure/virtual-machines/linux/quick-create-portal
 
 Using CLI
 
 Create a Windows VM: https://docs.microsoft.com/en-au/azure/virtual-machines/windows/quick-create-cli
+
 Create a Linux VM: https://docs.microsoft.com/en-au/azure/virtual-machines/linux/quick-create-cli
 
 Using Powershell
 
 Create a Windows VM: https://docs.microsoft.com/en-au/azure/virtual-machines/windows/quick-create-powershell
+
 Create a Linux VM: https://docs.microsoft.com/en-au/azure/virtual-machines/linux/quick-create-powershell
 
 # Quickstart: Storage
