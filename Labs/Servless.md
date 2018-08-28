@@ -15,7 +15,9 @@ https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-az
 
 # Functions with Triggers
 Create a function in Azure that is triggered by a timer: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-scheduled-function
+
 Create a function triggered by a generic webhook: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-generic-webhook-triggered-function
+
 Create a function triggered by Azure Queue storage: https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-storage-queue-triggered-function
 
 # Quickstart: Logic Apps
@@ -29,7 +31,9 @@ https://docs.microsoft.com/en-us/azure/logic-apps/tutorial-process-email-attachm
 # Quickstart: Azure SQL Database
 
 Create an Azure SQL database in the Azure portal: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-portal
+
 Create a single Azure SQL database using the Azure CLI: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-cli
+
 Create a single Azure SQL database using PowerShell: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-powershell
 
 Azure portal: Use the SQL Query editor to connect and query data: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-portal
