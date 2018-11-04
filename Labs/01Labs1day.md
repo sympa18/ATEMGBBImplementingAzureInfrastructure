@@ -20,4 +20,5 @@ Create an Azure SQL database in the Azure portal: https://docs.microsoft.com/en-
 
 # Afternoon Labs
 
-Kubernetes:Hands on with microservices: https://azurecitadel.github.io/labs/kubernetes/
+Kubernetes:Hands on with microservices:
+https://aka.ms/kube-lab
