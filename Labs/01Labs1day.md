@@ -1,22 +1,14 @@
 # Azure Morning Labs
 
-# Storage Account
-# Using Portal
-Create a Storage Account: https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=portal
+## Create an Azure Storage Account:
+https://docs.microsoft.com/en-au/learn/modules/create-azure-storage-account/1-introduction
 
-# Quickstart: Create a Virtual Network
-# Using Portal
-Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/quick-create-portal
+## Make your VMs highly available with Azure Load Balancer: 
+https://docs.microsoft.com/en-us/learn/modules/make-your-virtual-machines-highly-available/
 
-# Using Powershell
-Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/quick-create-powershell
-
-# Using CLI
-Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/quick-create-cli
-
-#Optional if time permits
-# Azure SQL database
-Create an Azure SQL database in the Azure portal: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-portal
+# Optional if time permits
+##  Provision an Azure SQL database to store application data
+https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/1-introduction
 
 # Afternoon Labs
 
