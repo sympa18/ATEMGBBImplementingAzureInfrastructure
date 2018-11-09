@@ -10,6 +10,7 @@ https://docs.microsoft.com/en-us/learn/modules/secure-azure-resources-with-condi
  https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=portal
 
 ## Quickstart: Create and manage Azure file shares with the Azure portal
+https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-portal
 
 # Virtual Machine
 
