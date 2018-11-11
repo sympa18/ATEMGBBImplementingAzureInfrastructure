@@ -63,3 +63,10 @@ https://docs.microsoft.com/en-au/azure/log-analytics/log-analytics-tutorial-view
 
 ## Respond to events with Azure Monitor Alerts
 https://docs.microsoft.com/en-au/azure/log-analytics/log-analytics-tutorial-response?toc=/azure/azure-monitor/toc.json
+
+#Azure Backup
+
+## Back up a virtual machine in Azure (Choose between Portal, PowerShell and CLI)
+https://docs.microsoft.com/en-us/azure/backup/quick-backup-vm-portal
+
+
