@@ -39,7 +39,7 @@ Using Powershell
 
 Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/quick-create-powershell
 
-# Using CLI
+Using CLI
 Create Virtual Network: https://docs.microsoft.com/en-au/azure/virtual-network/quick-create-cli
 
 #-----------------------------------------------------------------------------------------------

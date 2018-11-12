@@ -1,9 +1,3 @@
-# Azure AD 
-## Secure your Azure resources with conditional access
-
-https://docs.microsoft.com/en-us/learn/modules/secure-azure-resources-with-conditional-access/
-
-
 # Storage Account 
 
 ## Create a Storage Account: (Choose between Portal, PowerShell and CLI)
@@ -33,10 +27,6 @@ Attach Managed Data Disk: https://docs.microsoft.com/en-au/azure/virtual-machine
 
 ## Create a VM Scale Set
  https://docs.microsoft.com/en-au/azure/virtual-machines/windows/tutorial-create-vmss
-
-#Backup your VM
-
-https://docs.microsoft.com/en-au/azure/virtual-machines/linux/tutorial-backup-vms
 
 # Azure Policy
 
@@ -70,3 +60,10 @@ https://docs.microsoft.com/en-au/azure/log-analytics/log-analytics-tutorial-resp
 https://docs.microsoft.com/en-us/azure/backup/quick-backup-vm-portal
 
 
+# Azure Site Recovery
+## Set up disaster recovery for Azure VMs to a secondary Azure region
+https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-enable-replication
+
+## Run a disaster recovery drill for Azure VMs to a secondary Azure region
+
+https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-dr-drill
