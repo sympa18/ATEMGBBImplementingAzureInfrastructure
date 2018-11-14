@@ -527,8 +527,3 @@ $tmglobalprod = New-AzureRmTrafficManagerProfile -MonitorPort 80 -MonitorProtoco
 $vmssnamesydprodendpoint = New-AzureRmTrafficManagerEndpoint -Name $vmssnamesydprod -ProfileName $tmglobalprod.Name -ResourceGroupName $rgnamemel -Type AzureEndpoints -TargetResourceId $vmsssydprodpipdnsid -EndpointStatus Enabled
 $vmssnamemelprodendpoint = New-AzureRmTrafficManagerEndpoint -Name $vmssnamemelprod -ProfileName $tmglobalprod.Name -ResourceGroupName $rgnamemel -Type AzureEndpoints -TargetResourceId $vmssmelprodpipdnsid -EndpointStatus Enabled
 ```
-
-
-[test](test\test.ps1)
-
-test
