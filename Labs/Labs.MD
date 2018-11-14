@@ -294,7 +294,7 @@ $samelname = (Get-AzureRmStorageAccount -ResourceGroupName $rgnamemel).StorageAc
 $sasydname = (Get-AzureRmStorageAccount -ResourceGroupName $rgnamesyd).StorageAccountName
 
 $UserName = 'contosoadmin' 
-$Password = ''
+$Password = 'P@ssw0rd2018'
 
 # Create user object
 $StrPass = ConvertTo-SecureString -String $Password -AsPlainText -Force 
@@ -380,6 +380,28 @@ If we want to build to scale in IAAS we need to look at creating a VM Scale Set.
 Run the following commands to spin up a VM Scale Set in Melbourne and one in Sydney.
 
 ```
+
+# Variables for common values
+$locationmel = "australiasoutheast"
+$locationsyd = "australiaeast"
+$rgnamemel = "RGMELCONTOSO"
+$rgnamesyd = "RGSYDCONTOSO"
+$vmssnamesydprod = "VMSSSYDPROD"
+$vmssnamemelprod = "VMSSMELPROD"  
+$lbmelprodname = "LBMELPROD"
+$lbsydprodname = "LBSYDPROD"
+$vmsssydprodpipdns = "$($vmssnamesydprod)$(Get-Random)"
+$vmssmelprodpipdns = "$($vmssnamemelprod)$(Get-Random)"
+$vnetmelprodname = "VNETMELPROD"
+$vnetsydprodname =  "VNETSYDPROD"
+$vnetmelprodsnname = "SNMELPROD"
+$vnetsydprodsnname = "SNSYDPROD"
+$UserName = 'contosoadmin' 
+$Password = 'P@ssw0rd2018'
+
+# Create user object
+$StrPass = ConvertTo-SecureString -String $Password -AsPlainText -Force 
+$cred = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList ($UserName, $StrPass)
 ######################################
 #Create a VM Scale Set in VNETMELPROD#
 ######################################
