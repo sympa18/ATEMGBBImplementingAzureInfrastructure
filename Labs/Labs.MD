@@ -231,7 +231,7 @@ In this step we are going to create a Gateway to our Melbourne VNET.
 ```
 #Set Networking Variables for Melbourne Production VNET#
 $locationmel = "australiasoutheast"
-$rgname = "RGWORKSHOP"
+$rgnamemel = "RGMELCONTOSO"
 
 $vnetmelprodname = "VNETMELPROD"
 $vnetmelprodpipname = "VNETMELPRODPIP"
@@ -240,13 +240,13 @@ $vnetmelprodgwipconfigname = "VNETMELPRODGWIPCONFIG"
 $vnetmelprodgwname = "VNETMELPRODGW"
 
 #Get the Virtual Network
-$vnetmelprod = Get-AzureRmVirtualNetwork -Name $vnetmelprodname -ResourceGroupName $rgname
+$vnetmelprod = Get-AzureRmVirtualNetwork -Name $vnetmelprodname -ResourceGroupName $rgnamemel
 
 
-$vnetmelprodsngwpip = New-AzureRMPublicIpAddress -Name $vnetmelprodpipname -ResourceGroupName $rgname -Location $locationmel -AllocationMethod Dynamic
+$vnetmelprodsngwpip = New-AzureRMPublicIpAddress -Name $vnetmelprodpipname -ResourceGroupName $rgnamemel -Location $locationmel -AllocationMethod Dynamic
 
 #Get the Virtual Network
-$vnetmelprod = Get-AzureRmVirtualNetwork -Name $vnetmelprodname -ResourceGroupName $rgname
+$vnetmelprod = Get-AzureRmVirtualNetwork -Name $vnetmelprodname -ResourceGroupName $rgnamemel
 
 ##Create a new Gateway for your VNET NOTE that this may take up to 45 minutes to complete##
 #Get the Subnet IP configuration and Gateway IP Configuration
@@ -254,7 +254,7 @@ $vnetmelprodsngwconfig = Get-AzureRmVirtualNetworkSubnetConfig -name $vnetmelpro
 $vnetmelprodgwipconfig = New-AzureRMVirtualNetworkGatewayIpConfig -Name $vnetmelprodgwipconfigname -SubnetId $vnetmelprodsngwconfig.Id -PublicIpAddressId $vnetmelprodsngwpip.Id
 
 #Create the Virtual Network Gateway
-$vnetmelprodgw = New-AzureRmVirtualNetworkGateway -Name $vnetmelprodgwname -ResourceGroupName $rgname -Location $locationmel -IpConfigurations $vnetmelprodgwipconfig  -GatewayType "Vpn" -VpnType "RouteBased" -GatewaySku "VpnGw1"
+$vnetmelprodgw = New-AzureRmVirtualNetworkGateway -Name $vnetmelprodgwname -ResourceGroupName $rgnamemel -Location $locationmel -IpConfigurations $vnetmelprodgwipconfig  -GatewayType "Vpn" -VpnType "RouteBased" -GatewaySku "VpnGw1"
 
 ```
 
