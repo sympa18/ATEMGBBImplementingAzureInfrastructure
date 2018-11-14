@@ -530,3 +530,5 @@ $vmssnamemelprodendpoint = New-AzureRmTrafficManagerEndpoint -Name $vmssnamemelp
 
 
 [test](test\test.ps1)
+
+test
