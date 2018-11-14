@@ -357,7 +357,7 @@ $vmsydnic = New-AzureRmNetworkInterface -Name $vmsydprodnicname -ResourceGroupNa
   -SubnetId $vnetsydprod.Subnets[0].Id -PublicIpAddressId $vmsydpip.Id
 
 # Create a virtual machine configuration
-$vmsydconfig = New-AzureRmVMConfig -VMName $vmnamesydprod -VMSize Standard_D1 | `
+$vmsydconfig = New-AzureRmVMConfig -VMName $vmnamesydprod -VMSize Standard_D1_V2 | `
 Set-AzureRmVMOperatingSystem -Windows -ComputerName $vmnamesydprod -Credential $cred | `
 Set-AzureRmVMSourceImage -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version latest | `
 Add-AzureRmVMNetworkInterface -Id $vmsydnic.Id
