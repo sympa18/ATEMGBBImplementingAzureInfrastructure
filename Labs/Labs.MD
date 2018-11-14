@@ -415,7 +415,9 @@ $cred = New-Object -TypeName System.Management.Automation.PSCredential -Argument
     -PublicIpAddressName $vmssmelprodpipdns `
     -LoadBalancerName $lbmelprodname `
     -UpgradePolicyMode "Automatic" `
-    -Credential $cred
+    -Credential $cred `
+    -InstanceCount 2 `
+    -VmSize Standard_D1_v2
 
     $customConfig = @{
       "fileUris" = (,"https://raw.githubusercontent.com/Azure-Samples/compute-automation-configurations/master/automate-iis.ps1");
@@ -462,7 +464,7 @@ New-AzureRmVmss `
 -UpgradePolicyMode "Automatic" `
 -Credential $cred `
 -InstanceCount 2 `
--VmSize Standard_D1
+-VmSize Standard_D1_v2
 
 
 $customConfig = @{
